@@ -2,8 +2,8 @@
 // ctrl click to learn more 👉 https://www.w3schools.com/js/js_datatypes.asp
 
 // String:
-const firstName = 'John';
-const lastName = 'Doe';
+const firstName = "John";
+const lastName = "Doe";
 
 // Number:
 const age = 30;
@@ -12,25 +12,26 @@ const age = 30;
 const isMarried = false;
 const isSingle = true;
 
-// Boolean Expressions:
-// Check if a person is single and 30 years old or older 👇
-const shouldBeMarried = (isSingle === true && age >= 30);
-console.log('shouldBeMarried is', shouldBeMarried);
-
 // Undefined:
-let car; 
+let car;
 const bike = undefined;
 
 // Null:
 const house = null;
 
 // Object:
-const person = {firstName: 'John', lastName: 'Doe', age: 30, isMarried: false};
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  isMarried: false,
+};
 
 // Array:
-const fruits = ['Apple', 'Banana', 'Mango'];
+const numbers = [1, 2, 3, 4, 5];
+const fruits = ["Apple", "Banana", "Mango"];
 
 // Function:
 function sayHello() {
-  console.log('Hello');
+  console.log("Hello");
 }
