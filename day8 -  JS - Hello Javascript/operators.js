@@ -26,3 +26,38 @@ let e = 10;
 let f = 5;
 console.log('e > 5 && f < 10 is', e > 5 && f < 0); // Logical and
 console.log('e > 5 || f < 10 is', e > 5 || f < 0); // Logical or
+
+
+// Arithmetic Operators:
+// +	Addition
+// -	Subtraction
+// *	Multiplication
+// **	Exponentiation
+// /	Division
+// %	Modulus (Remainder)
+// ++	Increment
+// --	Decrement
+
+// Assignment Operators:
+// =	x = y	x = y
+// +=	x += y	x = x + y
+// -=	x -= y	x = x - y
+// *=	x *= y	x = x * y
+// /=	x /= y	x = x / y
+// %=	x %= y	x = x % y
+// **=	x **= y	x = x ** y
+
+// Comparison Operators:
+// ==	equal to (DO NOT USE THIS! ❌)
+// ===	equal value and equal type
+// !=	not equal (DO NOT USE THIS! ❌)
+// !==	not equal value or not equal type
+// >	greater than
+// <	less than
+// >=	greater than or equal to
+// <=	less than or equal to
+
+// Logical Operators:
+// &&	logical and
+// ||	logical or
+// !	logical not

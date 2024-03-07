@@ -8,15 +8,15 @@ const isYomKippur = false;
 const isOldEnoughForBeer = age >= 18;
 console.log("isOldEnoughForBeer is", isOldEnoughForBeer);
 
-// Check if a person is old enough to be a president 👇
+// Check if a person is old enough to have some wisdom 👇
 const hasSomeWisdom = age > 70;
 console.log("hasSomeWisdom is", hasSomeWisdom);
 
-// Check if a person is single and 30 years old or older 👇
+// Check if a person is single *and* 30 years old or older 👇
 const shouldBeMarried = age > 30 && isSingle === false;
 console.log("shouldBeMarried is", shouldBeMarried);
 
-// Check if a person is old enough to cross the street alone or it's Yom Kippur 👇
+// Check if a person is old enough to cross the street alone *or* it's Yom Kippur 👇
 const canCrossTheStreetAlone =  age > 9 || isYomKippur;
 console.log("canCrossTheStreetAlone is", canCrossTheStreetAlone);
 
