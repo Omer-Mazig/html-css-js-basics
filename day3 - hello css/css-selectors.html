@@ -8,42 +8,33 @@
     <style>
         /* Tag selector */
         p {
-            /* Border for all paragraphs  */
+            /* Default style for all paragraphs */
             border: 1px solid black;
-
-            /* Default color for all paragraphs */
+            padding: 1rem;
             color: green;
         }
 
         /* Class selector */
         .highlight {
-            color: red;
-            /* Overrides color for paragraphs with class 'highlight' */
+            /* color: red; */
         }
 
         /* ID selector */
         #special {
-            color: purple;
-            /* Overrides color for paragraph with id 'special' */
+            /* color: purple; */
         }
 
         /* Tag selector */
         p {
-            color: black;
-            /* Default color for all paragraphs */
-            /* Overwrite the previos rule! */
-            /* NOTE: The 'tag' selector is less specific than the 'ID' or 'class' selector, 
-            so the color of the paragraph with the ID 'main-content' or class 'highlight' will not be black. 
-            even though the class selector is defined after the ID selector in the CSS file.
-         */
+            /* color: black; */
         }
     </style>
 </head>
 
 <body>
-    <p>styled with a tag selector (p).</p>
-    <p class="highlight">styled with a class selector (.highlight).</p>
-    <p id="special">styled with an id selector (#special).</p>
+    <p>tag selector (p).</p>
+    <p class="highlight">class selector (.highlight).</p>
+    <p id="special">id selector (#special).</p>
 </body>
 
 </html>
