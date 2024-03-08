@@ -1,8 +1,8 @@
 // JS Boolean Expressions:
 
-const age = 40;
-const isSingle = false;
-const isYomKippur = false;
+let age = 40;
+let isSingle = false;
+let isYomKippur = false;
 
 // Check if a person is old enough to drink beer 👇
 const isOldEnoughForBeer = age >= 18;

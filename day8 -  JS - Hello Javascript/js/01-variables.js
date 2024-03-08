@@ -6,7 +6,7 @@ console.log("Hello Javascript");
 
 // This is how we declare a variable 👇
 let number;
-number = 10; // 👈 This is how we assign a value to a variable 
+number = 10; // 👈 This is how we assign a value to a variable
 
 // We can also declare and assign a value to a variable in one line like this 👇
 let anotherNumber = 20;
@@ -33,6 +33,7 @@ age = age + 1;
 console.log("increment age...");
 console.log("the new age is -", age);
 
-// const is used to declare a constant variable. The value of a constant variable cannot be changed!
+// const is used to declare a constant variable.
+// The value of a constant variable cannot be changed!
 const myId = "1234";
 myId = "5678"; // ❌ This will throw an error because we are trying to change the value of a constant
