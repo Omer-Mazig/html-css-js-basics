@@ -68,7 +68,7 @@ function foo() {
 }
 
 foo();
-cononsole.log("x", x); // ReferenceError: x is not defined
+console.log("x", x); // ReferenceError: x is not defined
 
 // TODO: write a function that takes in a number and returns the multiplication of that number by 2
 // TODO: write a function that takes two numbers and returns the sum of those numbers
