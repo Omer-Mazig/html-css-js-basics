@@ -35,8 +35,8 @@ console.log("substring:", message.substring(7)); // World!
 console.log("substring:", message.substring(7, 10)); // Wor
 
 // Removing Whitespace
-const whitespace = "    Hello, World!    ";
-console.log("whitespace:", whitespace.trim()); // Hello, World!
+const messageWithWhitespace = "    Hello, World!    ";
+console.log("whitespace:", messageWithWhitespace.trim()); // Hello, World!
 
 // Splitting a String
 console.log("split:", message.split(" ")); // ["Hello,", "World!"]  (returns an array , more on that later)
