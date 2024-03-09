@@ -26,6 +26,7 @@ else console.log("F");
 // the first condition that is true will run and the rest will be ignored.
 
 // NESTED IF STATEMENT:
+// *Try to avoid using nested if statements as much as possible... it can get messy.
 const isRaining = true;
 const isCold = true;
 
@@ -39,4 +40,5 @@ if (isRaining === true) {
   console.log("Enjoy the weather");
 }
 
-// *Try to avoid using nested if statements as much as possible... it can get messy.
+const age = 25;
+// TODO: write a program that checks if a the age is a baby, child, teenager, adult or senior (use else if statement)

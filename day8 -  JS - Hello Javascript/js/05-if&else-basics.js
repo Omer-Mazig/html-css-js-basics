@@ -50,3 +50,7 @@ if (age < 2 || age > 100) {
 const isHappy = true;
 if (isHappy === true) console.log("I am happy");
 else console.log("I am not happy");
+
+let number = 6;
+// TODO: write a program that checks if a number is even or odd
+// TODO: write a program that checks if a number is positive, negative or zero

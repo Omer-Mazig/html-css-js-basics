@@ -25,8 +25,11 @@ function greetUser(name, msg) {
 greetUser("John", "nice to meet you"); // Hello, John!
 
 // 03 Function with Return Value
+// return statement is used to return a value from a function.
+// The function stops executing when the return statement is executed.
 function add(a, b) {
   return a + b;
+  console.log("This line will not be executed"); // this line will not be executed
 }
 
 const sum = add(5, 3); // the value of 'sum' is assigned to the return value of the function
@@ -66,3 +69,8 @@ function foo() {
 
 foo();
 cononsole.log("x", x); // ReferenceError: x is not defined
+
+// TODO: write a function that takes in a number and returns the multiplication of that number by 2
+// TODO: write a function that takes two numbers and returns the sum of those numbers
+// TODO: write a function that takes two numbers and returns the difference of those numbers
+// TODO: write a function that takes two numbers and return to bigger number. if they are equal, return the sum of the two numbers (use the sum function you wrote earlier)

@@ -33,18 +33,6 @@ console.log("person (after deleting city)", person); // { name: 'John', age: 31,
 // this is usful in some cases. more on this later...
 console.log("person['name']", person["name"]); // John
 
-// we can add functions to the object. these are called methods
-let car = {
-  make: "Toyota",
-  model: "Corolla",
-  year: 2015,
-  drive: function () {
-    console.log("driving...");
-  },
-};
-
-car.drive(); // driving...
-
 // we can also add objects to the object
 let bankAccount = {
   accountNumber: "123456",
@@ -56,3 +44,15 @@ let bankAccount = {
 };
 
 console.log("bankAccount.owner.name", bankAccount.owner.name); // Omer
+
+// we can add functions to the object. these are called methods
+let car = {
+  make: "Toyota",
+  model: "Corolla",
+  year: 2015,
+  drive: function () {
+    console.log("driving...");
+  },
+};
+
+car.drive(); // driving...
