@@ -4,6 +4,7 @@
 // - Objects are variables too, but they can contain many values.
 // - The values are written as key-value pairs ('key' and 'value' separated by a colon).
 
+// create an object
 let person = {
   name: "John", // key: name, value: "John"
   age: 30, // key: age, value: 30
