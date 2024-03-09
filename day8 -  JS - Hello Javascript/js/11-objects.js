@@ -56,3 +56,17 @@ let car = {
 };
 
 car.drive(); // driving...
+
+// TODO: write 'createPalyer' function that takes 'nikename', 'score' and 'isAlive'.
+// the function return an object with these properties.
+// the player object should also have a method called play that logs "playing..." to the console.
+
+// TODO: write a function called 'updateScore'.
+//  it takes a player object and a number as parameters and adds the number to the player's score.
+
+// TODO: write a function called 'revive'.
+// it takes a player object as a parameter and sets the player's isAlive property to true.
+
+// TODO: write a function called 'kill'.
+// it takes a player object as a parameter and check if the score is 0 or less,
+// if so, it sets the isAlive property to false.

@@ -5,8 +5,20 @@
 // - The values are written as a list of (values) separated by commas.
 // - The values are enclosed in square brackets [].
 
-// create an array
+// CREATE AN ARRAY
 let fruits = ["Apple", "Banana", "Orange"];
+
+// array of mixed data types.
+// in 99% of the cases, the elements of an array are of the same data type.
+let someValues = [
+  1,
+  "Hello",
+  true,
+  { name: "John" },
+  null,
+  undefined,
+  [1, 2, 3],
+];
 
 // we can access the array elements using the index
 console.log("fruits[0]", fruits[0]); // Apple
@@ -21,7 +33,8 @@ console.log("fruits (after modification)", fruits); // [ 'Cherry', 'Banana', 'Or
 // we can get the length of the array using the 'length' property
 console.log("fruits.length", fruits.length); // 3
 
-// Array methods:
+// ARRAY METHODS
+// These are some of the most commonly used array methods:
 
 // - push: add an element to the end of the array
 fruits.push("Mango");
