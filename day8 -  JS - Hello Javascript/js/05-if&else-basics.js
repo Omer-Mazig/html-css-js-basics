@@ -22,7 +22,7 @@ if (10 < 100) {
 }
 
 // if & else statement with a variable condition
-const age = 25;
+let age = 25;
 if (age > 18) {
   console.log("You are an adult");
 } else {
@@ -47,7 +47,7 @@ if (age < 2 || age > 100) {
 
 // We can omit the {} and write the if statement in one line.
 // usful for simple and short code.
-const isHappy = true;
+let isHappy = true;
 if (isHappy === true) console.log("I am happy");
 else console.log("I am not happy");
 

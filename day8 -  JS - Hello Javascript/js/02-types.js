@@ -11,17 +11,9 @@
 const firstName = "John";
 const lastName = "Doe";
 
-// we can get the length of a string using the length property
-console.log(firstName.length); // 4
-console.log(lastName.length); // 3
-
-// we cat get a specific character using the index
-console.log(firstName[0]); // J
-console.log(lastName[1]); // o
-console.log(lastName[5]); // undefined
-
 // Number:
 const age = 30;
+const degree = 36.7;
 
 // Boolean:
 const isMarried = false;
