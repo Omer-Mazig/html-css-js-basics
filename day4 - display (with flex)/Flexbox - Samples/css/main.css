@@ -15,6 +15,9 @@ body {
   border: black solid 2px;
   display: flex;
 
+  /* gap: 8px; */
+  /* flex-wrap: wrap; */
+
   /* FLEX DIRECTION */
   /* DEFAULT - row */
   flex-direction: row;
@@ -26,6 +29,7 @@ body {
   /* Main Axis */
   /* DEFAULT - flex-start */
   justify-content: flex-start;
+  /* justify-content: flex-end; */
   /* justify-content: center; */
   /* justify-content: space-between; */
   /* justify-content: space-around; */
@@ -53,6 +57,7 @@ body {
 }
 
 .flex-item3 {
+  flex-grow: 1;
   background-color: yellow;
 }
 

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +10,10 @@ body {
 
 span {
   color: red;
+}
+
+span span {
+  color: greenyellow;
 }
 
 .container {
