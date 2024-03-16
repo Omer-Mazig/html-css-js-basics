@@ -1,0 +1,33 @@
+/* reel */
+.reel {
+  --gap: 1rem;
+  display: grid;
+  gap: var(--gap);
+  grid-auto-flow: column;
+  grid-auto-columns: 30%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: var(--gap);
+}
+
+.reel > * {
+  scroll-snap-align: start;
+}
+
+/*  grid auto columns */
+/* How it works❓: 
+  1. auto-fit - create as many columns as possible 
+  2. minmax - set the minimum and maximum size of the column
+  3. 1fr - create equal width columns
+  4. min - set the minimum size of the column (--min-column-size or 100%)
+  5. repeat - repeat the pattern
+*/
+.auto-grid {
+  --min-column-size: 15rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--min-column-size), 100%), 1fr)
+  );
+}
