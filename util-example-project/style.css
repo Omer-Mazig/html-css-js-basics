@@ -25,13 +25,11 @@ body {
 }
 
 .main-nav {
-  /* --brand-color: black; */
-  background-color: var(--clr-accent-600);
-  color: var(--clr-neutral-100);
+  box-shadow: 0 0 0 1px;
   display: flex;
   justify-content: space-between;
-  padding-inline: var(--page-padding);
   padding-block: 16px;
+  padding-inline: 2rem;
 }
 
 .main-nav ul {
@@ -41,6 +39,21 @@ body {
 
 .articles-and-aside {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
+}
+
+footer {
+  background-color: var(--clr-accent-600);
+  color: var(--clr-neutral-100);
+  padding-block: 1rem;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-nav ul {
+  flex: 1;
 }
