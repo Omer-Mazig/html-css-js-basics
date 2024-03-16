@@ -136,6 +136,53 @@
           </aside>
         </div>
 
+        <section class="my-8 grid grid-columns-2 gap-8">
+          <div class="flow">
+            <h2>Form Example#1:</h2>
+            <form class="form">
+              <div class="card">
+                <div class="flex flex-column">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" />
+                </div>
+                <div class="flex flex-column">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+                <div class="flex flex-column">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="flow">
+            <h2>Form Example#2:</h2>
+            <form class="form">
+              <div class="card">
+                <div class="flex flex-column">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" />
+                </div>
+                <div class="flex flex-column">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+                <div class="flex flex-column">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="flex flex-justify-space-between">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-danger">Clear</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
         <section class="my-8 flow">
           <h2>Reel Example:</h2>
           <div class="reel pb-4">
@@ -146,7 +193,7 @@
                 <p>Control the <span class="italic">flex direction</span></p>
               </div>
             </div>
-            <div class="card">
+            <div class="card selected">
               <img
                 src="img/Flex-justify-content.png"
                 alt="Flex-justify-content"

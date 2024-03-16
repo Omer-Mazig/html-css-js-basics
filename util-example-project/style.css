@@ -9,6 +9,8 @@
 @import "css/utils/flex-grid.utils.css";
 
 /*  COMPONENTS (UI) */
+@import "css/components/button.component.css";
+@import "css/components/input.component.css";
 @import "css/components/card.component.css";
 @import "css/components/reel.component.css";
 
@@ -16,7 +18,7 @@
 
 body {
   background-color: var(--clr-neutral-300);
-  color: var(--clr-accent-900);
+  color: var(--clr-neutral-900);
 }
 
 .main-nav {
@@ -64,6 +66,12 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: 4rem;
   position: relative;
+}
+
+@media (max-width: 640px) {
+  .articles-and-aside {
+    grid-template-columns: 1fr;
+  }
 }
 
 .aside {
