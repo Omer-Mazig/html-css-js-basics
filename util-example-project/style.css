@@ -16,20 +16,33 @@
 
 body {
   background-color: var(--clr-neutral-300);
+  color: var(--clr-accent-900);
+}
+
+.main-nav {
+  height: var(--nav-height);
+  background-color: var(--clr-neutral-800);
+  color: var(--clr-neutral-100);
+  box-shadow: 0 0 0 1px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-nav-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo a {
   text-transform: uppercase;
-  color: var(--brand-color);
   font-weight: 700;
 }
 
-.main-nav {
-  box-shadow: 0 0 0 1px;
-  display: flex;
-  justify-content: space-between;
-  padding-block: 16px;
-  padding-inline: 2rem;
+.logo a span {
+  color: var(--clr-primary-400);
 }
 
 .main-nav ul {
@@ -37,14 +50,25 @@ body {
   gap: 16px;
 }
 
+.main-nav ul li a:hover {
+  color: var(--clr-primary-400);
+}
+
 .articles-and-aside {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 20px;
+  gap: 4rem;
+  position: relative;
+}
+
+.aside {
+  position: sticky;
+  top: calc(var(--nav-height) + 2rem);
+  align-self: start;
 }
 
 footer {
-  background-color: var(--clr-accent-600);
+  background-color: var(--clr-neutral-800);
   color: var(--clr-neutral-100);
   padding-block: 1rem;
 }
@@ -56,4 +80,8 @@ footer {
 
 .footer-nav ul {
   flex: 1;
+}
+
+.footer-nav ul li a:hover {
+  color: var(--clr-primary-400);
 }
