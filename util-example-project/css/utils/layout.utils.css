@@ -8,7 +8,7 @@
   /* padding: 0 2rem; */
 
   /*  another way of doing it (recommended) 👇 */
-  width: min(1160px, 100% - 4rem);
+  width: min(var(--large-brakepoint), 100% - 4rem);
   margin: 0 auto;
 }
 

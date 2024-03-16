@@ -15,9 +15,12 @@
 }
 
 html {
-  height: 100%;
+  /*  Default font size is 16px. so 1rem is 16px*/
+  font-size: 14px; /* 1rem = 14px */
   font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  height: 100%;
 }
 
 /*
