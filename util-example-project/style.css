@@ -1,5 +1,13 @@
+/*  GENERAL */
 @import "css/reset.css";
 @import "css/variables.css";
+
+/*  UTILS */
+@import "css/utils/layout.utils.css";
 @import "css/utils/spacing.utils.css";
+@import "css/utils/typography.utils.css";
 @import "css/utils/flex-grid.utils.css";
-@import "css/utils/components.utils.css";
+
+/*  COMPONENTS */
+@import "css/components/card.component.css";
+@import "css/components/reel.component.css";

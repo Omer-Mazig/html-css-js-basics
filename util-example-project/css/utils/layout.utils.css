@@ -1,17 +1,21 @@
-/* reel */
-.reel {
-  --gap: 1rem;
-  display: grid;
-  gap: var(--gap);
-  grid-auto-flow: column;
-  grid-auto-columns: 30%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-padding: var(--gap);
+/* LAYOUT UTILS */
+
+/* wrapper */
+.wrapper {
+  /* one way of doing it 👇 */
+  /* max-width: 1160pxpx; */
+  /* margin: 0 auto; */
+  /* padding: 0 2rem; */
+
+  /*  another way of doing it (recommended) 👇 */
+  width: min(1160px, 100% - 4rem);
+  margin: 0 auto;
 }
 
-.reel > * {
-  scroll-snap-align: start;
+/* flow */
+/* selct all the direct children, except the first one 👇*/
+.flow > * + * {
+  margin-top: 1em;
 }
 
 /*  grid auto columns */

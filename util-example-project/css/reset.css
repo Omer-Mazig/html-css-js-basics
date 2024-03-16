@@ -74,8 +74,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1rem;
-  font-weight: initial;
+  max-width: 75ch;
+  /* font-size: 1rem; */
+  /* font-weight: initial; */
 }
 
 /*  8. Remove default anchor styles */
